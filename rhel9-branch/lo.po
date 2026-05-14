@@ -1,0 +1,334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 15:52+0200\n"
+"PO-Revision-Date: 2026-05-12 12:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/rhel9-branch/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: ../org_fedora_oscap/common.py:358
+#, python-brace-format
+msgid "Error extracting archive as a zipfile: {exc}"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການແຍກໄຟລ໌ເກັບມ້ຽນເປັນໄຟລ໌ zip: {exc}"
+
+#: ../org_fedora_oscap/content_discovery.py:189
+#, python-brace-format
+msgid ""
+"Integrity check of the content failed - {hash_obj.name} hash didn't match"
+msgstr ""
+"ການກວດສອບຄວາມຖືກຕ້ອງຂອງເນື້ອຫາລົ້ມເຫຼວ - ຄ່າແຮຊ (hash) {hash_obj.name} ບໍ່ກົງກັນ"
+
+#: ../org_fedora_oscap/data_fetch.py:117
+msgid "Network connection needed to fetch data."
+msgstr "ຕ້ອງການການເຊື່ອມຕໍ່ເຄືອຂ່າຍເພື່ອດຶງຂໍ້ມູນ."
+
+#: ../org_fedora_oscap/data_fetch.py:262
+#, python-brace-format
+msgid ""
+"Failed to fetch data - the request returned HTTP error code {return_code}"
+msgstr "ດຶງຂໍ້ມູນບໍ່ສຳເລັດ - ຄຳຮ້ອງຂໍສົ່ງຄືນລະຫັດຂໍ້ຜິດພາດ HTTP {return_code}"
+
+#: ../org_fedora_oscap/rule_handling.py:441
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+"{0} ຕ້ອງຢູ່ໃນພາທິຊັນແຍກຕ່າງຫາກ ຫຼື ໂວນຸມໂລຈິກ (logical volume) ແລະ ຕ້ອງຖືກສ້າງຂຶ້ນໃນໂຄງຮ່າງກາ"
+"ນແບ່ງພາທິຊັນກ່ອນການຕິດຕັ້ງຈະເລີ່ມຂຶ້ນດ້ວຍໂປຣໄຟລ໌ຄວາມປອດໄພ"
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:452
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr ""
+"ເພີ່ມຕົວເລືອກການເມົາທ໌ '%(mount_option)s' ສຳລັບຈຸດເມົາທ໌ %(mount_point)s ແລ້ວ"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:560
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "ໃຫ້ແນ່ໃຈວ່າໄດ້ສ້າງລະຫັດຜ່ານທີ່ມີຄວາມຍາວຂັ້ນຕ່ຳ %d ຕົວອັກສອນ"
+
+#: ../org_fedora_oscap/rule_handling.py:567
+msgid "cannot check root password length (password is crypted)"
+msgstr "ບໍ່ສາມາດກວດສອບຄວາມຍາວລະຫັດຜ່ານຂອງ root ໄດ້ (ລະຫັດຜ່ານຖືກເຂົ້າລະຫັດໄວ້)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:573
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+"ລະຫັດຜ່ານຂອງ root ສັ້ນເກີນໄປ, ຕ້ອງການລະຫັດຜ່ານທີ່ຍາວກວ່າຢ່າງໜ້ອຍ %d ຕົວອັກສອນ"
+
+#: ../org_fedora_oscap/rule_handling.py:712
+#: ../org_fedora_oscap/rule_handling.py:727
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "ແພັກເກດ '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ແພັກເກດທີ່ຈະຕິດຕັ້ງແລ້ວ"
+
+#: ../org_fedora_oscap/rule_handling.py:737
+#, python-brace-format
+msgid ""
+"package '{package}' has been added to the list of excluded packages, but it "
+"can't be removed from the current software selection without breaking the "
+"installation."
+msgstr ""
+"ແພັກເກດ '{package}' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ແພັກເກດທີ່ຖືກຍົກເວັ້ນແລ້ວ, ແຕ່ມັນບໍ່ສາມາດຖອນອອກຈາກການເລືອ"
+"ກຊອບແວປະຈຸບັນໄດ້ ໂດຍບໍ່ເຮັດໃຫ້ການຕິດຕັ້ງມີບັນຫາ."
+
+#: ../org_fedora_oscap/rule_handling.py:744
+#: ../org_fedora_oscap/rule_handling.py:759
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "ແພັກເກດ '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ແພັກເກດທີ່ຖືກຍົກເວັ້ນແລ້ວ"
+
+#: ../org_fedora_oscap/rule_handling.py:866
+msgid "Kdump will be disabled on startup"
+msgstr "Kdump ຈະຖືກປິດໃຊ້ງານເມື່ອເລີ່ມລະບົບ"
+
+#: ../org_fedora_oscap/rule_handling.py:868
+msgid "Kdump will be enabled on startup"
+msgstr "Kdump ຈະຖືກເປີດໃຊ້ງານເມື່ອເລີ່ມລະບົບ"
+
+#: ../org_fedora_oscap/rule_handling.py:1026
+msgid "Firewall will be disabled on startup"
+msgstr "ໄຟວໍຈະຖືກປິດໃຊ້ງານເມື່ອເລີ່ມລະບົບ"
+
+#: ../org_fedora_oscap/rule_handling.py:1033
+msgid "Firewall will be enabled on startup"
+msgstr "ໄຟວໍຈະຖືກເປີດໃຊ້ງານເມື່ອເລີ່ມລະບົບ"
+
+#: ../org_fedora_oscap/rule_handling.py:1041
+#: ../org_fedora_oscap/rule_handling.py:1080
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr "ບໍລິການ '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ບໍລິການທີ່ຈະເພີ່ມເຂົ້າໃນໄຟວໍແລ້ວ"
+
+#: ../org_fedora_oscap/rule_handling.py:1048
+#: ../org_fedora_oscap/rule_handling.py:1093
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr "ພອດ '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ພອດທີ່ຈະເພີ່ມເຂົ້າໃນໄຟວໍແລ້ວ"
+
+#: ../org_fedora_oscap/rule_handling.py:1055
+#: ../org_fedora_oscap/rule_handling.py:1106
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr ""
+"ຄວາມເຊື່ອຖື '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ຄວາມເຊື່ອຖືທີ່ຈະເພີ່ມເຂົ້າໃນໄຟວໍແລ້ວ"
+
+#: ../org_fedora_oscap/rule_handling.py:1118
+#: ../org_fedora_oscap/rule_handling.py:1133
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr "ບໍລິການ '%s' ຖືກເພີ່ມເຂົ້າໃນລາຍຊື່ບໍລິການທີ່ຈະຖືກຖອນອອກຈາກໄຟວໍແລ້ວ"
+
+#: ../org_fedora_oscap/service/installation.py:41
+msgid "The integrity check of the security content failed."
+msgstr "ການກວດສອບຄວາມຖືກຕ້ອງຂອງເນື້ອຫາຄວາມປອດໄພລົ້ມເຫຼວ."
+
+#: ../org_fedora_oscap/service/installation.py:46
+msgid "There was an error fetching and loading the security content:\n"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການດຶງຂໍ້ມູນ ແລະ ໂຫຼດເນື້ອຫາຄວາມປອດໄພ:\n"
+
+#: ../org_fedora_oscap/service/installation.py:51
+#: ../org_fedora_oscap/gui/spokes/oscap.py:793
+msgid "There was an unexpected problem with the supplied content."
+msgstr "ເກີດບັນຫາທີ່ບໍ່ຄາດຄິດກັບເນື້ອຫາທີ່ສະໜອງໃຫ້."
+
+#: ../org_fedora_oscap/service/installation.py:56
+msgid "The installation should be aborted."
+msgstr "ການຕິດຕັ້ງຄວນຖືກຍົກເລີກ."
+
+#: ../org_fedora_oscap/service/installation.py:148
+msgid "Wrong configuration detected!"
+msgstr "ກວດພົບການຕັ້ງຄ່າທີ່ບໍ່ຖືກຕ້ອງ!"
+
+#: ../org_fedora_oscap/service/oscap.py:121
+msgid "You have used more than one oscap addon sections in the kickstart. "
+msgstr "ທ່ານໄດ້ໃຊ້ພາກສ່ວນເສີມ oscap ຫຼາຍກວ່າໜຶ່ງພາກສ່ວນໃນ kickstart. "
+
+#: ../org_fedora_oscap/service/oscap.py:135
+#, python-brace-format
+msgid ""
+"You have configured the oscap addon using '{used_section_header}' section. "
+msgstr "ທ່ານໄດ້ຕັ້ງຄ່າສ່ວນເສີມ oscap ໂດຍໃຊ້ພາກສ່ວນ '{used_section_header}'. "
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:201
+msgid "_Security Profile"
+msgstr "_ໂປຣໄຟລ໌ຄວາມປອດໄພ"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:228
+msgid "Not ready"
+msgstr "ບໍ່ພ້ອມ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:393
+msgid "Fetching content data"
+msgstr "ກຳລັງດຶງຂໍ້ມູນເນື້ອຫາ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:431
+msgid "Fetch complete, analyzing data."
+msgstr "ດຶງຂໍ້ມູນສຳເລັດແລ້ວ, ກຳລັງວິເຄາະຂໍ້ມູນ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:643
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1072
+msgid "No profile selected"
+msgstr "ບໍ່ໄດ້ເລືອກໂປຣໄຟລ໌"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:648
+msgid "No rules for the pre-installation phase"
+msgstr "ບໍ່ມີກົດເກນສຳລັບຂັ້ນຕອນກ່ອນການຕິດຕັ້ງ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:801
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "ເນື້ອຫາທີ່ໃຫ້ມາບໍ່ຖືກຕ້ອງ. ກະລຸນາປ້ອນ URL ອື່ນ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:809
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr "URL ເນື້ອຫາບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ຮອງຮັບ, ກະລຸນາປ້ອນ URL ອື່ນ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:817
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "ດຶງຂໍ້ມູນເນື້ອຫາບໍ່ສຳເລັດ. ກະລຸນາປ້ອນ URL ອື່ນ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:825
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດທາງເຄືອຂ່າຍໃນຂະນະທີ່ດຶງຂໍ້ມູນ. ກະລຸນາກວດສອບວ່າເຄືອຂ່າຍໄດ້ຖືກຕັ້ງຄ່າ ແລະ ໃຊ້ງານໄດ້ແລ້ວ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:834
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "ການກວດສອບຄວາມຖືກຕ້ອງຂອງເນື້ອຫາລົ້ມເຫຼວ. ບໍ່ສາມາດໃຊ້ເນື້ອຫານີ້ໄດ້."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:842
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "ແຍກເນື້ອຫາບໍ່ສຳເລັດ (%s). ກະລຸນາປ້ອນ URL ອື່ນ."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:860
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
+msgstr "ໂປຣໄຟລ໌ທີ່ມີ ID '%s' ບໍ່ໄດ້ຖືກກຳນົດໄວ້ໃນເນື້ອຫາ. ກະລຸນາເລືອກໂປຣໄຟລ໌ອື່ນ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:879
+msgid "Not applying security profile"
+msgstr "ບໍ່ນຳໃຊ້ໂປຣໄຟລ໌ຄວາມປອດໄພ"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:921
+msgid " or enter data stream content or archive URL below:"
+msgstr ""
+" ຫຼື ປ້ອນເນື້ອຫາ data stream ຫຼື URL ຂອງໄຟລ໌ເກັບມ້ຽນ (archive) ຢູ່ລຸ່ມນີ້:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:925 tmp/oscap.glade.h:12
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr ""
+"ບໍ່ພົບເນື້ອຫາ. ກະລຸນາປ້ອນເນື້ອຫາ data stream ຫຼື URL ຂອງໄຟລ໌ເກັບມ້ຽນຢູ່ລຸ່ມນີ້:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1062
+msgid "Error fetching and loading content"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການດຶງຂໍ້ມູນ ແລະ ໂຫຼດເນື້ອຫາ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1069
+msgid "No content found"
+msgstr "ບໍ່ພົບເນື້ອຫາ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1080
+msgid "Misconfiguration detected"
+msgstr "ກວດພົບການຕັ້ງຄ່າທີ່ບໍ່ຖືກຕ້ອງ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1086
+msgid "Warnings appeared"
+msgstr "ມີຄຳເຕືອນປາກົດຂຶ້ນ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1088
+msgid "Everything okay"
+msgstr "ທຸກຢ່າງຮຽບຮ້ອຍດີ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1170
+msgid "Invalid or unsupported URL"
+msgstr "URL ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ຮອງຮັບ"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1176 tmp/oscap.glade.h:14
+msgid "Fetching content..."
+msgstr "ກຳລັງດຶງຂໍ້ມູນເນື້ອຫາ..."
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY PROFILE"
+msgstr "ໂປຣໄຟລ໌ຄວາມປອດໄພ"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "_ປ່ຽນເນື້ອຫາ"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "ນຳໃຊ້ນະໂຍບາຍຄວາມປອດໄພ:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Data stream:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "ລາຍການກວດສອບ (Checklist):"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "ເລືອກໂປຣໄຟລ໌ຢູ່ລຸ່ມນີ້:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "ໂປຣໄຟລ໌"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "ເລືອກແລ້ວ"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "_ເລືອກໂປຣໄຟລ໌"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "ການປ່ຽນແປງທີ່ເຮັດໄປແລ້ວ ຫຼື ຕ້ອງໄດ້ເຮັດ:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "_ໃຊ້ຄູ່ມືຄວາມປອດໄພ SCAP"
+
+#: tmp/oscap.glade.h:13
+msgid "_Fetch"
+msgstr "_ດຶງຂໍ້ມູນ"
