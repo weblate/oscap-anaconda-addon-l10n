@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2026-01-18 09:58+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2026-02-06 09:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/oscap-"
 "anaconda-addon/rhel7-branch/ka/>\n"
 "Language: ka\n"
@@ -80,11 +82,11 @@ msgstr "Kdump ჩატვირთვისას ჩართული იქ�
 
 #: ../org_fedora_oscap/rule_handling.py:903
 msgid "Firewall will be disabled on startup"
-msgstr ""
+msgstr "ბრანდმაუერი ჩატვირთვისას გათიშული იქნება"
 
 #: ../org_fedora_oscap/rule_handling.py:910
 msgid "Firewall will be enabled on startup"
-msgstr ""
+msgstr "ბრანდმაუერი ჩატვირთვისას ჩართული იქნება"
 
 #: ../org_fedora_oscap/rule_handling.py:918
 #: ../org_fedora_oscap/rule_handling.py:955
@@ -99,7 +101,7 @@ msgstr "სერვისი '%s' დაემატა სერვისე�
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr ""
+msgstr "პორტი '%s' დაემატა პორტების სიას, რომელიც ბრანდმაუერში ჩაემატება"
 
 #: ../org_fedora_oscap/rule_handling.py:932
 #: ../org_fedora_oscap/rule_handling.py:977
@@ -114,7 +116,7 @@ msgstr "ნდობა '%s' დაემატა ნდობების ს�
 msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
-msgstr ""
+msgstr "სერვისი '%s' დაემატა სერვისების სიას, რომელიც ბრანდმაუერიდან დაემატება"
 
 #: ../org_fedora_oscap/ks/oscap.py:423
 #, python-format
@@ -123,6 +125,9 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
+"უსაფრთხოების შემცველობის გამოთხოვისა და ჩატვირთვის შეცდომა:\n"
+"%s\n"
+"დაყენება გაუქმდება. გნებავთ, მაინც გააგრძელოთ?"
 
 #: ../org_fedora_oscap/ks/oscap.py:452
 msgid ""
@@ -140,11 +145,11 @@ msgstr ""
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:199
 msgid "Not ready"
-msgstr ""
+msgstr "მზად არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:347
 msgid "Fetching content data"
-msgstr ""
+msgstr "შემცველობის მონაცემების გამოთხოვა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:614
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1015
@@ -161,11 +166,11 @@ msgstr "მიწოდებული შემცველობა არა�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:765
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr ""
+msgstr "არასწორი ან მხარდაუჭერელი შემცველობის ბმული. შეიყვანეთ სხვა."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:773
 msgid "Failed to fetch content. Enter a different URL, please."
-msgstr ""
+msgstr "შემცველობის გამოთხოვა ჩავარდა. შეიყვანეთ სხვა ბმული."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:781
 msgid ""
@@ -194,7 +199,7 @@ msgstr ""
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:832
 msgid "Not applying security policy"
-msgstr ""
+msgstr "უსაფრთხოების პოლიტიკა გადატარებული არ იქნება"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -206,6 +211,8 @@ msgstr " ან შეიყვანეთ მონაცემების �
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
+"შემცველობა ვერ ვიპოვე. შეიყვანეთ მონაცემების ნაკადის შემცველობა ან არქივის "
+"ბმული ქვემოთ:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1005
 msgid "Error fetching and loading content"
@@ -225,7 +232,7 @@ msgstr "გამოჩნდა გაფრთხილებები"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1031
 msgid "Everything okay"
-msgstr ""
+msgstr "ყველაფერი კარგადაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1107
 msgid "Invalid or unsupported URL"
@@ -241,7 +248,7 @@ msgstr "უსაფრთხოების პოლიტიკა"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
-msgstr ""
+msgstr "_შემცველობის შეცვლა"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
@@ -249,7 +256,7 @@ msgstr "უსაფრთხოებით პოლიტიკის გა�
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
-msgstr ""
+msgstr "მონაცემების ნაკადი:"
 
 #: tmp/oscap.glade.h:5
 msgid "Checklist:"
@@ -261,15 +268,15 @@ msgstr "აირჩიეთ პროფილი ქვემოთ:"
 
 #: tmp/oscap.glade.h:7
 msgid "Profile"
-msgstr ""
+msgstr "პროფილი"
 
 #: tmp/oscap.glade.h:8
 msgid "Selected"
-msgstr ""
+msgstr "არჩეულია"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"
-msgstr ""
+msgstr "აირჩიეთ პროფილი"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
@@ -277,8 +284,8 @@ msgstr "ცვლილებები, რომლებიც მოხდა
 
 #: tmp/oscap.glade.h:11
 msgid "_Use SCAP Security Guide"
-msgstr ""
+msgstr "SCAP-ის უსაფრთხოების სახელმძღვანელოს _გამოყენება"
 
 #: tmp/oscap.glade.h:12
 msgid "_Fetch"
-msgstr ""
+msgstr "_გამოთხოვა"
