@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2025.
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2025-05-17 02:00+0000\n"
+"PO-Revision-Date: 2026-04-02 19:58+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
-"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/"
-"oscap-anaconda-addon/master/kab/>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/master/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format

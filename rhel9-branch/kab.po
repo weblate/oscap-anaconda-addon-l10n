@@ -8,14 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-02 19:58+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/rhel9-branch/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -298,11 +301,11 @@ msgstr ""
 
 #: tmp/oscap.glade.h:7
 msgid "Profile"
-msgstr ""
+msgstr "Amaɣnu"
 
 #: tmp/oscap.glade.h:8
 msgid "Selected"
-msgstr ""
+msgstr "Yettwafren"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"

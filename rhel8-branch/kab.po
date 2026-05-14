@@ -2,19 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-02 19:58+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/rhel8-branch/kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -164,7 +168,7 @@ msgstr ""
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Policy"
-msgstr ""
+msgstr "Ta_sertit n tɣellist"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:229
@@ -287,11 +291,11 @@ msgstr ""
 
 #: tmp/oscap.glade.h:7
 msgid "Profile"
-msgstr ""
+msgstr "Amaɣnu"
 
 #: tmp/oscap.glade.h:8
 msgid "Selected"
-msgstr ""
+msgstr "Yettwafren"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"
