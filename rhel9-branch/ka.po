@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
 "PO-Revision-Date: 2026-02-06 09:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/oscap-"
 "anaconda-addon/rhel9-branch/ka/>\n"
 "Language: ka\n"
@@ -23,23 +22,26 @@ msgstr ""
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "არქივის zip ფაილად გაშლის შეცდომა: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:189
 #, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
+"შემცველობის მთლიანობის შემოწმება ჩავარდა - {hash_obj.name} ჰეში არ ემთხვევა"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "მონაცემების გამოსათხოვად აუცილებელია ქსელური კავშირი."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"მონაცემების გამოთხოვის შეცდომა - მოთხოვნამ დააბრუნა HTTP-ის შეცდომის კოდი "
+"{return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:441
 #, python-brace-format
@@ -84,7 +86,7 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:727
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr ""
+msgstr "პაკეტი '%s' დაემატა დასაყენებელი პაკეტების სიას"
 
 #: ../org_fedora_oscap/rule_handling.py:737
 #, python-brace-format
@@ -93,6 +95,8 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"პაკეტი '{package}' დაემატა ამოსაღები პაკეტების სიას, მაგრამ ის მიმდინარე "
+"პროგრამების არჩევნიდან ამოღებული ვერ იქნება დაყენების გაფუჭების გარეშე."
 
 #: ../org_fedora_oscap/rule_handling.py:744
 #: ../org_fedora_oscap/rule_handling.py:759
@@ -148,39 +152,39 @@ msgstr "სერვისი '%s' დაემატა სერვისე�
 
 #: ../org_fedora_oscap/service/installation.py:41
 msgid "The integrity check of the security content failed."
-msgstr ""
+msgstr "უსაფრთხოების შემცველობის მთლიანობის შემოწმება ჩავარდა."
 
 #: ../org_fedora_oscap/service/installation.py:46
 msgid "There was an error fetching and loading the security content:\n"
-msgstr ""
+msgstr "უსაფრთხოების შემცველობის გამოთხოვისა და ჩატვირთვის შეცდომა:\n"
 
 #: ../org_fedora_oscap/service/installation.py:51
 #: ../org_fedora_oscap/gui/spokes/oscap.py:793
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "მოულოდნელი პრობლემა გადმოცემულ შემცველობასთან."
 
 #: ../org_fedora_oscap/service/installation.py:56
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "დაყენება უნდა შეწვეტილიყო."
 
 #: ../org_fedora_oscap/service/installation.py:148
 msgid "Wrong configuration detected!"
-msgstr ""
+msgstr "აღმოჩენილია არასწორი კონფიგურაცია!"
 
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
-msgstr ""
+msgstr "kickstart-ში ერთზე მეტ oscap-ის დამატების სექციას იყენებთ. "
 
 #: ../org_fedora_oscap/service/oscap.py:135
 #, python-brace-format
 msgid ""
 "You have configured the oscap addon using '{used_section_header}' section. "
-msgstr ""
+msgstr "თქვენ მოირგეთ oscap-ის დამატება სექციით '{used_section_header}'. "
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Profile"
-msgstr ""
+msgstr "უ_საფრთხოების პროფილი"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
@@ -193,12 +197,12 @@ msgstr "შემცველობის მონაცემების გ�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
 msgid "Fetch complete, analyzing data."
-msgstr ""
+msgstr "გამოთხოვა დასრულდა. მიმდინარეობს მონაცემების ანალიზი."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
 msgid "No profile selected"
-msgstr ""
+msgstr "პროფილი არჩეული არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:648
 msgid "No rules for the pre-installation phase"
@@ -243,7 +247,7 @@ msgstr ""
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
 msgid "Not applying security profile"
-msgstr "უსაფრთხოების პოლიტიკა გადატარებული არ იქნება"
+msgstr "უსაფრთხოების პროფილი გადატარებული არ იქნება"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -264,7 +268,7 @@ msgstr "შემცველობის გამოთხოვისა დ�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "No content found"
-msgstr ""
+msgstr "შემცველობა აღმოჩენილი არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1080
 msgid "Misconfiguration detected"
@@ -288,7 +292,7 @@ msgstr "შემცველობის გამოთხოვა..."
 
 #: tmp/oscap.glade.h:1
 msgid "SECURITY PROFILE"
-msgstr ""
+msgstr "უსაფრთხოების პროფილი"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"

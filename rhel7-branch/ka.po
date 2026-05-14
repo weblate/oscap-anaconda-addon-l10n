@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
 "PO-Revision-Date: 2026-02-06 09:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/oscap-"
 "anaconda-addon/rhel7-branch/ka/>\n"
 "Language: ka\n"
@@ -64,7 +63,7 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:632
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr ""
+msgstr "პაკეტი '%s' დაემატა დასაყენებელი პაკეტების სიას"
 
 #: ../org_fedora_oscap/rule_handling.py:641
 #: ../org_fedora_oscap/rule_handling.py:656
@@ -140,7 +139,7 @@ msgstr ""
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:172
 msgid "_SECURITY POLICY"
-msgstr ""
+msgstr "_უსაფრთხოების პოლიტიკა"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:199
@@ -154,7 +153,7 @@ msgstr "შემცველობის მონაცემების გ�
 #: ../org_fedora_oscap/gui/spokes/oscap.py:614
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1015
 msgid "No profile selected"
-msgstr ""
+msgstr "პროფილი არჩეული არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:619
 msgid "No rules for the pre-installation phase"
@@ -220,7 +219,7 @@ msgstr "შემცველობის გამოთხოვისა დ�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1012
 msgid "No content found"
-msgstr ""
+msgstr "შემცველობა აღმოჩენილი არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1023
 msgid "Misconfiguration detected"
