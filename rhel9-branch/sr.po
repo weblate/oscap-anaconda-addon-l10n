@@ -10,38 +10,42 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2015-04-18 01:39-0400\n"
-"Last-Translator: Momcilo Medic <medicmomcilo@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/oscap-anaconda-"
-"addon/language/sr/)\n"
+"PO-Revision-Date: 2026-04-23 08:58+0000\n"
+"Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/rhel9-branch/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Грешка при извлачењу архиве као зип датотеке: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:189
 #, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
+"Провера интегритета садржаја није успела – хеш „{hash_obj.name}“ се не "
+"поклапа"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Потребна је мрежна веза за преузимање података."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Нисам успео да преузмем податке – захтев је вратио ХТТП код грешке "
+"{return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:441
 #, python-brace-format
@@ -50,6 +54,9 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
+"{0} мора бити на засебној партицији или логичком тому и мора бити направљен "
+"у распореду партиционисања пре него што се инсталација може обавити са "
+"безбедносним профилом"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:452
@@ -75,7 +82,7 @@ msgstr "немогуће проверити дужину root шифре (шиф
 msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
-msgstr ""
+msgstr "лозинка админа је прекратка, потребна је дужа са најмање %d знакова"
 
 #: ../org_fedora_oscap/rule_handling.py:712
 #: ../org_fedora_oscap/rule_handling.py:727
@@ -90,6 +97,8 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"пакет „{package}“ је додат на списак искључених пакета, али се не може "
+"уклонити из тренутног избора софтвера без нарушавања инсталације."
 
 #: ../org_fedora_oscap/rule_handling.py:744
 #: ../org_fedora_oscap/rule_handling.py:759
@@ -99,19 +108,19 @@ msgstr "пакет '%s' је додат на листу искључених п�
 
 #: ../org_fedora_oscap/rule_handling.py:866
 msgid "Kdump will be disabled on startup"
-msgstr ""
+msgstr "Kdump ће бити онемогућен при покретању"
 
 #: ../org_fedora_oscap/rule_handling.py:868
 msgid "Kdump will be enabled on startup"
-msgstr ""
+msgstr "Kdump ће бити омогућен при покретању"
 
 #: ../org_fedora_oscap/rule_handling.py:1026
 msgid "Firewall will be disabled on startup"
-msgstr ""
+msgstr "Заштитни зид ће бити онемогућен при покретању"
 
 #: ../org_fedora_oscap/rule_handling.py:1033
 msgid "Firewall will be enabled on startup"
-msgstr ""
+msgstr "Заштитни зид ће бити омогућен при покретању"
 
 #: ../org_fedora_oscap/rule_handling.py:1041
 #: ../org_fedora_oscap/rule_handling.py:1080
@@ -120,13 +129,14 @@ msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
 msgstr ""
+"услуга „%s“ је додата на списак услуга које ће бити додате у заштитни зид"
 
 #: ../org_fedora_oscap/rule_handling.py:1048
 #: ../org_fedora_oscap/rule_handling.py:1093
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr ""
+msgstr "порт „%s“ је додат на списак портова који ће бити додати у заштитни зид"
 
 #: ../org_fedora_oscap/rule_handling.py:1055
 #: ../org_fedora_oscap/rule_handling.py:1106
@@ -134,6 +144,7 @@ msgstr ""
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
 msgstr ""
+"поверење „%s“ је додато на списак поверења која ће бити додата у заштитни зид"
 
 #: ../org_fedora_oscap/rule_handling.py:1118
 #: ../org_fedora_oscap/rule_handling.py:1133
@@ -142,46 +153,44 @@ msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
 msgstr ""
+"услуга „%s“ је додата на списак услуга које ће бити уклоњене из заштитног "
+"зида"
 
 #: ../org_fedora_oscap/service/installation.py:41
 msgid "The integrity check of the security content failed."
-msgstr ""
+msgstr "Провера интегритета безбедносног садржаја није успела."
 
 #: ../org_fedora_oscap/service/installation.py:46
 msgid "There was an error fetching and loading the security content:\n"
-msgstr ""
+msgstr "Дошло је до грешке при преузимању и учитавању безбедносног садржаја:\n"
 
 #: ../org_fedora_oscap/service/installation.py:51
 #: ../org_fedora_oscap/gui/spokes/oscap.py:793
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Дошло је до неочекиваног проблема са достављеним садржајем."
 
 #: ../org_fedora_oscap/service/installation.py:56
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Инсталацију треба прекинути."
 
 #: ../org_fedora_oscap/service/installation.py:148
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Погрешно подешавање откривено"
+msgstr "Откривено је погрешно подешавање!"
 
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
-msgstr ""
+msgstr "Користили сте више од једног одељка „oscap“ додатка у кикстарту. "
 
 #: ../org_fedora_oscap/service/oscap.py:135
 #, python-brace-format
 msgid ""
 "You have configured the oscap addon using '{used_section_header}' section. "
-msgstr ""
+msgstr "Подесили сте „oscap“ додатак користећи одељак „{used_section_header}“. "
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
-#, fuzzy
-#| msgid "_Select profile"
 msgid "_Security Profile"
-msgstr "_Изаберите профил"
+msgstr "_Безбедносни профил"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
@@ -193,10 +202,8 @@ msgid "Fetching content data"
 msgstr "Преузимање података о садржају"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
-#, fuzzy
-#| msgid "Fetching content data"
 msgid "Fetch complete, analyzing data."
-msgstr "Преузимање података о садржају"
+msgstr "Преузимање је завршено, анализирам податке."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
@@ -209,30 +216,32 @@ msgstr "Нема правила за пред-инсталациону фазу"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:801
 msgid "Invalid content provided. Enter a different URL, please."
-msgstr "Неисправан садржај пружен. Унесите други URL, молим."
+msgstr "Неисправан садржај пружен. Унесите други УРЛ, молим."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:809
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr ""
+msgstr "Неисправна или неподржана адреса садржаја, унесите неку другу."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:817
 msgid "Failed to fetch content. Enter a different URL, please."
-msgstr "Неуспешно преузимање садржаја. Унесите други URL, молим."
+msgstr "Неуспешно преузимање садржаја. Унесите други УРЛ, молим."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:825
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr ""
+"Дошло је до грешке на мрежи приликом добављања података. Проверите да ли је "
+"мрежа подешена и да ли ради."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:834
 msgid "The integrity check of the content failed. Cannot use the content."
-msgstr ""
+msgstr "Провера интегритета садржаја није успела. Садржај се не може користити."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:842
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
-msgstr "Неуспешно извлачење садржаја (%s). Унесите други URL, молим."
+msgstr "Неуспешно извлачење садржаја (%s). Унесите други УРЛ, молим."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:860
 #, python-format
@@ -240,29 +249,28 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
 msgstr ""
+"Профил са ИД-ом „%s“ није дефинисан у садржају. Изаберите неки други профил"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
-#, fuzzy
-#| msgid "Not applying security policy"
 msgid "Not applying security profile"
-msgstr "Не примењујем полису безбедности"
+msgstr "Безбедносни профил се не примењује"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:921
 msgid " or enter data stream content or archive URL below:"
-msgstr "или унесите садржајни или архивски URL за stream података испод:"
+msgstr " или унесите садржајни или архивски УРЛ за ток података испод:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:925 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
-"Садржај није пронађен. Молим унесите садржајни или архивски URL за stream "
+"Садржај није пронађен. Молим унесите садржајни или архивски УРЛ за ток "
 "података:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1062
 msgid "Error fetching and loading content"
-msgstr ""
+msgstr "Грешка приликом добављања и учитавања садржаја"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "No content found"
@@ -282,17 +290,15 @@ msgstr "Све је у реду"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1170
 msgid "Invalid or unsupported URL"
-msgstr "Неисправан или неподржан URL"
+msgstr "Неисправан или неподржан УРЛ"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1176 tmp/oscap.glade.h:14
 msgid "Fetching content..."
-msgstr "Преузимање садржаја..."
+msgstr "Добављање садржаја..."
 
 #: tmp/oscap.glade.h:1
-#, fuzzy
-#| msgid "SECURITY POLICY"
 msgid "SECURITY PROFILE"
-msgstr "БЕЗБЕДНОСНИ МОДЕЛ"
+msgstr "БЕЗБЕДНОСНИ ПРОФИЛ"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
@@ -304,7 +310,7 @@ msgstr "Примени сигурносну политику:"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
-msgstr "Stream података:"
+msgstr "Ток података:"
 
 #: tmp/oscap.glade.h:5
 msgid "Checklist:"
@@ -336,4 +342,4 @@ msgstr "_Користи SCAP сигурносни водич"
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
-msgstr "_Преузми"
+msgstr "_Добави"
