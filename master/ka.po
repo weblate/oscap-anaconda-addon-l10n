@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2024.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2024, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2024-02-04 11:48+0000\n"
+"PO-Revision-Date: 2026-01-18 09:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
-"oscap-anaconda-addon/master/ka/>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/master/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -35,8 +35,8 @@ msgstr ""
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
 msgstr ""
-"მიმაგრების პარამეტრი '%(mount_option)s' დაემატა მიმაგრების წერტილს "
-"%(mount_point)s"
+"მიმაგრების პარამეტრი '%(mount_option)s' დაემატა მიმაგრების წერტილს %"
+"(mount_point)s"
 
 #. root password was not set
 #: ../org_fedora_oscap/rule_handling.py:520
