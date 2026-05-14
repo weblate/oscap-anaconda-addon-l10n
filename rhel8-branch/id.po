@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Arif Budiman <arifpedia@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-21 11:51+0200\n"
+"PO-Revision-Date: 2026-03-23 06:58+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#: ../org_fedora_oscap/common.py:326
+#, python-brace-format
+msgid "Error extracting archive as a zipfile: {exc}"
+msgstr "Kesalahan saat mengekstrak arsip sebagai zipfile: {exc}"
+
+#: ../org_fedora_oscap/content_discovery.py:167
+#, python-brace-format
+msgid ""
+"Integrity check of the content failed - {hash_obj.name} hash didn't match"
+msgstr "Pemeriksaan integritas konten gagal - hash {hash_obj.name} tidak cocok"
+
+#: ../org_fedora_oscap/data_fetch.py:117
+msgid "Network connection needed to fetch data."
+msgstr "Koneksi jaringan diperlukan untuk mengambil data."
+
+#: ../org_fedora_oscap/data_fetch.py:262
+#, python-brace-format
+msgid ""
+"Failed to fetch data - the request returned HTTP error code {return_code}"
+msgstr ""
+"Gagal mengambil data - permintaan mengembalikan kode kesalahan HTTP "
+"{return_code}"
+
+#: ../org_fedora_oscap/rule_handling.py:434
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+"{0} harus berada pada partisi terpisah atau volume logis dan harus dibuat "
+"dalam tata letak partisi sebelum instalasi dapat dilakukan dengan profil "
+"keamanan"
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:445
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr ""
+"opsi mount '%(mount_option)s' ditambahkan untuk titik mount %(mount_point)s"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:554
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "pastikan untuk membuat kata sandi dengan panjang minimal %d karakter"
+
+#: ../org_fedora_oscap/rule_handling.py:561
+msgid "cannot check root password length (password is crypted)"
+msgstr "tidak dapat memeriksa panjang kata sandi root (kata sandi dienkripsi)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:567
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+"kata sandi root terlalu pendek, diperlukan kata sandi yang lebih panjang "
+"dengan setidaknya %d karakter"
+
+#: ../org_fedora_oscap/rule_handling.py:685
+#: ../org_fedora_oscap/rule_handling.py:700
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "paket '%s' telah ditambahkan ke daftar paket yang akan diinstal"
+
+#: ../org_fedora_oscap/rule_handling.py:710
+#, python-brace-format
+msgid ""
+"package '{package}' has been added to the list of excluded packages, but it "
+"can't be removed from the current software selection without breaking the "
+"installation."
+msgstr ""
+"paket '{package}' telah ditambahkan ke daftar paket yang dikecualikan, "
+"tetapi tidak dapat dihapus dari pemilihan perangkat lunak saat ini tanpa "
+"merusak instalasi."
+
+#: ../org_fedora_oscap/rule_handling.py:717
+#: ../org_fedora_oscap/rule_handling.py:732
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "paket '%s' telah ditambahkan ke daftar paket yang dikecualikan"
+
+#: ../org_fedora_oscap/rule_handling.py:833
+msgid "Kdump will be disabled on startup"
+msgstr "Kdump akan dinonaktifkan saat startup"
+
+#: ../org_fedora_oscap/rule_handling.py:835
+msgid "Kdump will be enabled on startup"
+msgstr "Kdump akan diaktifkan saat startup"
+
+#: ../org_fedora_oscap/rule_handling.py:988
+msgid "Firewall will be disabled on startup"
+msgstr "Firewall akan dinonaktifkan saat startup"
+
+#: ../org_fedora_oscap/rule_handling.py:995
+msgid "Firewall will be enabled on startup"
+msgstr "Firewall akan diaktifkan saat startup"
+
+#: ../org_fedora_oscap/rule_handling.py:1003
+#: ../org_fedora_oscap/rule_handling.py:1042
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr ""
+"layanan '%s' telah ditambahkan ke daftar layanan yang akan ditambahkan ke "
+"firewall"
+
+#: ../org_fedora_oscap/rule_handling.py:1010
+#: ../org_fedora_oscap/rule_handling.py:1055
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr ""
+"port '%s' telah ditambahkan ke daftar port yang akan ditambahkan ke firewall"
+
+#: ../org_fedora_oscap/rule_handling.py:1017
+#: ../org_fedora_oscap/rule_handling.py:1068
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr ""
+"trust '%s' telah ditambahkan ke daftar trust yang akan ditambahkan ke "
+"firewall"
+
+#: ../org_fedora_oscap/rule_handling.py:1080
+#: ../org_fedora_oscap/rule_handling.py:1095
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr ""
+"layanan '%s' telah ditambahkan ke daftar layanan yang akan dihapus dari "
+"firewall"
+
+#: ../org_fedora_oscap/ks/oscap.py:376
+msgid "The installation should be aborted."
+msgstr "Instalasi harus dibatalkan."
+
+#: ../org_fedora_oscap/ks/oscap.py:377
+msgid "Do you wish to continue anyway?"
+msgstr "Apakah Anda tetap ingin melanjutkan?"
+
+#: ../org_fedora_oscap/ks/oscap.py:400
+msgid "The integrity check of the security content failed."
+msgstr "Pemeriksaan integritas konten keamanan gagal."
+
+#: ../org_fedora_oscap/ks/oscap.py:404
+msgid "There was an error fetching and loading the security content:\n"
+msgstr "Terjadi kesalahan saat mengambil dan memuat konten keamanan:\n"
+
+#: ../org_fedora_oscap/ks/oscap.py:409
+#: ../org_fedora_oscap/gui/spokes/oscap.py:774
+msgid "There was an unexpected problem with the supplied content."
+msgstr "Terjadi masalah tak terduga dengan konten yang disediakan."
+
+#: ../org_fedora_oscap/ks/oscap.py:462
+msgid "Wrong configuration detected!"
+msgstr "Konfigurasi yang salah terdeteksi!"
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:201
+msgid "_Security Policy"
+msgstr "_Kebijakan Keamanan"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:229
+msgid "Not ready"
+msgstr "Belum siap"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:383
+msgid "Fetching content data"
+msgstr "Mengambil data konten"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:626
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1039
+msgid "No profile selected"
+msgstr "Tidak ada profil yang dipilih"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:631
+msgid "No rules for the pre-installation phase"
+msgstr "Tidak ada aturan untuk fase pra-instalasi"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:782
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "Konten yang diberikan tidak valid. Masukkan URL yang berbeda."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:790
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr ""
+"URL konten tidak valid atau tidak didukung, harap masukkan yang berbeda."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:798
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "Gagal mengambil konten. Masukkan URL yang berbeda."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:806
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+"Kesalahan jaringan ditemui saat mengambil data. Harap periksa bahwa jaringan "
+"sudah diatur dan berfungsi."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:815
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "Pemeriksaan integritas konten gagal. Tidak dapat menggunakan konten."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:823
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "Gagal mengekstrak konten (%s). Masukkan URL yang berbeda."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:840
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
+msgstr ""
+"Profil dengan ID '%s' tidak didefinisikan dalam konten. Pilih profil yang "
+"berbeda"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:856
+msgid "Not applying security policy"
+msgstr "Tidak menerapkan kebijakan keamanan"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:887
+msgid " or enter data stream content or archive URL below:"
+msgstr " atau masukkan konten data stream atau URL arsip di bawah:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr ""
+"Tidak ada konten yang ditemukan. Harap masukkan konten data stream atau URL "
+"arsip di bawah:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
+msgid "Error fetching and loading content"
+msgstr "Kesalahan mengambil dan memuat konten"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1036
+msgid "No content found"
+msgstr "Tidak ada konten yang ditemukan"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1047
+msgid "Misconfiguration detected"
+msgstr "Miskonfigurasi terdeteksi"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
+msgid "Warnings appeared"
+msgstr "Peringatan muncul"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1055
+msgid "Everything okay"
+msgstr "Semuanya baik"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1134
+msgid "Invalid or unsupported URL"
+msgstr "URL tidak valid atau tidak didukung"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1140 tmp/oscap.glade.h:14
+msgid "Fetching content..."
+msgstr "Mengambil konten..."
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "KEBIJAKAN KEAMANAN"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "Ubah konten"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "Terapkan kebijakan keamanan:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Data stream:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "Daftar periksa:"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "Pilih profil di bawah:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "Profil"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "Dipilih"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "Pilih profil"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "Perubahan yang telah dilakukan atau perlu dilakukan:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "Gunakan SCAP Security Guide"
+
+#: tmp/oscap.glade.h:13
+msgid "_Fetch"
+msgstr "Ambil"
