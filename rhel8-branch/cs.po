@@ -8,13 +8,14 @@
 # Zdenek <chmelarz@gmail.com>, 2017. #zanata
 # Daniel Rusek <mail@asciiwolf.com>, 2018. #zanata
 # Matěj Týč <matyc@redhat.com>, 2020. #zanata, 2021.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-07-13 13:04+0000\n"
-"Last-Translator: Matěj Týč <matyc@redhat.com>\n"
+"PO-Revision-Date: 2025-11-17 00:45+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/cs/>\n"
 "Language: cs\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -185,7 +186,7 @@ msgstr "_Politika zabezpečení"
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:229
 msgid "Not ready"
-msgstr "Není připraven"
+msgstr "Nepřipraveno"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:383
 msgid "Fetching content data"
@@ -244,7 +245,7 @@ msgstr "Neaplikovat bezpečnostní politiku"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
-msgstr " nebo zadejte URL data streamu, případně archivu:"
+msgstr " nebo níže zadejte URL obsahu proudu dat, případně archivu:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
@@ -294,11 +295,11 @@ msgstr "Aplikovat bezpečnostní politiku:"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
-msgstr "Data stream:"
+msgstr "Proud dat:"
 
 #: tmp/oscap.glade.h:5
 msgid "Checklist:"
-msgstr "Checklist:"
+msgstr "Kontrolní seznam:"
 
 #: tmp/oscap.glade.h:6
 msgid "Choose profile below:"

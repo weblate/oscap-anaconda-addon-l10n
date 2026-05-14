@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2021-07-13 13:04+0000\n"
-"Last-Translator: Matěj Týč <matyc@redhat.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel9-branch/cs/>\n"
+"PO-Revision-Date: 2025-11-17 00:45+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel9-branch/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -175,35 +175,31 @@ msgstr "Detekována nesprávná konfigurace!"
 
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
-msgstr ""
+msgstr "V kickstart jste použili více než jednu sekci pro doplňek oscap. "
 
 #: ../org_fedora_oscap/service/oscap.py:135
 #, python-brace-format
 msgid ""
 "You have configured the oscap addon using '{used_section_header}' section. "
-msgstr ""
+msgstr "Nastavili jste doplněk oscap pomocí sekce „{used_section_hdeader}“. "
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
-#, fuzzy
-#| msgid "_Security Policy"
 msgid "_Security Profile"
-msgstr "_Politika zabezpečení"
+msgstr "_Profil zabezpečení"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
 msgid "Not ready"
-msgstr "Není připraven"
+msgstr "Nepřipraveno"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:393
 msgid "Fetching content data"
 msgstr "Načítají se data"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
-#, fuzzy
-#| msgid "Fetching content data"
 msgid "Fetch complete, analyzing data."
-msgstr "Načítají se data"
+msgstr "Načítání dokončeno – probíhá analýza dat."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
@@ -251,16 +247,14 @@ msgid ""
 msgstr "Profil s ID '%s' není definován v datech. Vyberte prosím jiný profil"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
-#, fuzzy
-#| msgid "Not applying security policy"
 msgid "Not applying security profile"
-msgstr "Neaplikovat bezpečnostní politiku"
+msgstr "Neuplatňuje se profil zabezpečení"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:921
 msgid " or enter data stream content or archive URL below:"
-msgstr " nebo zadejte URL data streamu, případně archivu:"
+msgstr " nebo níže zadejte URL obsahu proudu dat, případně archivu:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:925 tmp/oscap.glade.h:12
 msgid ""
@@ -297,10 +291,8 @@ msgid "Fetching content..."
 msgstr "Načítám data..."
 
 #: tmp/oscap.glade.h:1
-#, fuzzy
-#| msgid "SECURITY POLICY"
 msgid "SECURITY PROFILE"
-msgstr "POLITIKA ZABEZPEČENÍ"
+msgstr "PROFIL ZABEZPEČENÍ"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
@@ -312,11 +304,11 @@ msgstr "Aplikovat bezpečnostní politiku:"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
-msgstr "Data stream:"
+msgstr "Proud dat:"
 
 #: tmp/oscap.glade.h:5
 msgid "Checklist:"
-msgstr "Checklist:"
+msgstr "Kontrolní seznam:"
 
 #: tmp/oscap.glade.h:6
 msgid "Choose profile below:"
